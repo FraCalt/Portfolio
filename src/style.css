@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(#e66465, #9198e5);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; 
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border: 1px solid black;
+  width: 500px;
+  margin: 0 auto;
+  padding: 5px 20px;
+  background-color: rgb(37, 37, 37);
+  border: 7px solid rgb(136, 132, 132);
+  border-radius: 7px;
+  padding: 15px 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container > .cardWrapper {
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  padding: 10px 40px;
+}
+.cardWrapper > div > h1,
+h3,
+h4 {
+  align-self: center;
+  margin: 5px auto;
+}
+.info--box {
+  display: flex;
+  flex-direction: column;
+}
+
+.info--box > h3 {
+  color: rgb(197, 126, 12);
+}
+
+.info--box > img {
+  border: 5px solid rgb(86, 85, 85);
+  border-radius: 10px;
+  margin: 10px auto;
+  align-self: center;
+}
+
+.footer--box {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  margin: 0 125px;
+}
+
+.buttongroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 105px;
+}
+.buttongroup > button > {
+  height: 30px;
+  width: 70px;
+  color: white;
+  background-color: rgb(64, 146, 240);
+  border: 3px solid rgb(156, 226, 240);
+  border-radius: 5px;
+}
+.buttongroup > button > h5 > a {
+  text-decoration: none;
+}
+
+.buttongroup > button > a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buttongroup > button > h5 {
+  margin: 0 auto;
+  font-size: small;
+}
