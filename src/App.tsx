@@ -7,14 +7,14 @@ import "./style.css";
 
 const App = () => {
   return (
-    <div className="container">
-      <div className="cardWrapper">
-        <Info />
-        <About />
-        <Interests />
-        <Footer />
+      <div className="container">
+        <div className="cardWrapper">
+          <Info />
+          <About />
+          <Interests />
+          <Footer />
+        </div>
       </div>
-    </div>
   );
 };
 

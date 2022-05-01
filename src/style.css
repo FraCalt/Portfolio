@@ -1,7 +1,7 @@
 body {
   background: linear-gradient(#e66465, #9198e5);
   background-repeat: no-repeat;
-  background-size: 100% 100%; 
+  background-size: 100% 100%;
   height: 100vh;
 }
 
@@ -18,12 +18,43 @@ body {
   border-radius: 7px;
   padding: 15px 20px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  animation: fadeIn, rotateIn;
+  animation-duration: 0.7s;
+}
+@keyframes fadeIn {
+  from {
+    background-color: rgba(37, 37, 37, 0);
+    border: 1px solid rgba(136, 132, 132, 0);
+    border: 10px solid rgba(0, 0, 0, 0);
+    border-radius: 0px;
+  }
+  to {
+  }
+}
+@keyframes rotateIn {
+  from {
+    transform: rotateY(-90deg);
+  }
+  to {
+  }
 }
 .container > .cardWrapper {
   background-color: black;
   color: white;
   border-radius: 7px;
   padding: 10px 40px;
+  animation: fadeIn-cardWrapper;
+  animation-duration: 1s;
+}
+@keyframes fadeIn-cardWrapper {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0);
+    border-radius: 0px;
+  }
+
+  to {
+  }
 }
 .cardWrapper > div > h1,
 h3,
@@ -39,6 +70,9 @@ h4 {
 .info--box > h3 {
   color: rgb(197, 126, 12);
 }
+.info--box > h3 > span {
+  margin: 0 10px;
+}
 
 .info--box > img {
   border: 5px solid rgb(86, 85, 85);
@@ -51,7 +85,14 @@ h4 {
   display: flex;
   justify-content: space-between;
   background-color: black;
-  margin: 0 125px;
+  margin: 0 115px;
+}
+.footer--box > img {
+  border-radius: 10px;
+}
+
+.about--box {
+  height: 180px;
 }
 
 .buttongroup {

@@ -7,6 +7,7 @@ const Footer = () => {
       <img src="/images/facebook-logo.png" alt="Facebook" width="40px"/>
       <img src="/images/instagram-logo.png" alt="Instagram" width="40px"/>
       <img src="/images/twitter-icon.png" alt="Twitter" width="40px"/>
+      <img src="/images/github-logo.png" alt="GitHub" width="40px"/>
     </div>
   );
 };
